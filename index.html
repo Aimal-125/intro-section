@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Intro-Section with dropdown menu solution">
+	<meta name="keywords" content="Frontend JavaScript Practice Projects, beginner JavaScript practice projects, dropdown menu using JavaScript, frontend mentor solution for intro-section with dropdown">
+	<meta name="author" content="Aimal Khan">
+	<title>Frontend Mentor | Intro-Section</title>
+	<link rel="icon" type="image/x-icon" href="images/favicon-32x32.png">
+	<link rel="stylesheet" type="text/css" href="styles.css">
+	<script src="ex.js" defer></script>
+</head>
+<body>
+	<main>
+		<nav class="desktop-nav">
+			<div class="nav1">
+				<div class="logo">snap</div>
+				<div class="links">
+					<div class="features-div">
+						<a href="#">Features
+							<span class="arrow-span">
+								<img src="images/icon-arrow-down.svg" alt="down-arrow">
+							</span>
+						</a>
+						<div class="features-menu">
+							<div class="features-menu-div">
+								<a href="#todo">
+									<span class="menu-imgdiv">
+										<img src="images/icon-todo.svg" alt="todo image">
+									</span>
+									<span>Todo List</span>
+								</a>
+							</div>
+							<div class="features-menu-div">
+								<a href="#calendar">
+									<span class="menu-imgdiv">
+										<img src="images/icon-calendar.svg" alt="calendar image">
+									</span>
+									<span>Calendar</span>
+								</a>
+							</div>
+							<div class="features-menu-div">
+								<a href="#reminders">
+									<span class="menu-imgdiv">
+										<img src="images/icon-reminders.svg" alt="reminders image">
+									</span>
+									<span>Reminders</span>
+								</a>
+							</div>
+							<div class="features-menu-div">
+								<a href="#planning">
+									<span class="menu-imgdiv">
+										<img src="images/icon-planning.svg" alt="planning image">
+									</span>
+									<span>Planning</span>
+								</a>
+							</div>
+						</div>	
+					</div>
+					<div class="company-div">
+						<a href="#">Company
+							<span class="arrow-span">
+								<img src="images/icon-arrow-down.svg" alt="down-arrow">
+							</span>
+						</a>
+						<div class="company-menu">
+							<a href="#">History</a>
+							<a href="#">Our Team</a>
+							<a href="#">Blog</a>
+						</div>
+					</div>
+					<div class="careers">
+						<a href="#">Careers</a>
+					</div>
+					<div class="about">
+						<a href="#">About</a>
+					</div>
+				</div>
+			</div>
+			<div class="nav2">
+				<div class="login">
+					<a href="#">Login</a>
+				</div>
+				<div class="register">
+					<a href="#">Register</a>
+				</div>
+			</div>
+		</nav>
+		<nav class="mobile-nav">
+			<div class="mobile-logo">snap</div>
+			<div class="mDiv">
+				<button class="mBtn">
+					<span class="span1"></span>
+					<span class="span2"></span>
+					<span class="span3"></span>
+				</button>
+			</div>
+			<div class="mobile-menu-container">
+				<div class="sidebar">
+					<div class="sidebar-menu">
+						<div class="mNav1">
+							<div class="mobile-features">
+								<a href="#features" id="features">Features <span class="mobile-arrow">
+									<img src="images/icon-arrow-down.svg" alt="down icon" id="arrow-image1">
+								</span></a>
+								<div class="mobile-features-menu">
+									<div class="mobile-links">
+										<a href="#"><img src="images/icon-todo.svg" alt="todo icon"><span>Todo List</span></a>
+										<a href="#"><img src="images/icon-calendar.svg" alt="calendar icon"><span>Calendar</span></a>
+										<a href="#"><img src="images/icon-reminders.svg" alt="reminders icon"><span>Reminders</span></a>
+										<a href="#"><img src="images/icon-planning.svg" alt="planning icon"><span>Planning</span></a>
+									</div>
+								</div>
+							</div>
+							<a href="#company" id="company">Company <span class="mobile-arrow">
+								<img src="images/icon-arrow-down.svg" alt="down icon" id="arrow-image2">
+							</span></a>
+							<div class="mobile-company-menu">
+								<a href="#">History</a>
+								<a href="#">Our Team</a>
+								<a href="#">Blog</a>
+							</div>
+							<a href="#careers">Careers</a>
+							<a href="#about">About</a>
+						</div>
+						<div class="mNav2">
+							<a href="#login">Login</a>
+							<a href="#register">Register</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</nav>
+		<div class="container">
+			<div class="content-container">
+				<div class="div1">
+					<h1>Make remote work</h1>
+					<p>Get your team in sync, no matter what is your location. Streamline processes, create team rituals, and watch productivity soar.</p>
+					<div class="btnDiv">
+						<button>Learn More</button>
+					</div>
+					<div class="brands-container">
+						<div class="databiz-container">
+							<div class="databiz-dot"></div>
+							<div class="databiz">databiz</div>
+						</div>
+						<div class="audiophile-container">
+							<div class="audio">audio<sup>.</sup></div>
+							<div class="phile">phile</div>
+						</div>
+						<div class="meet-container">
+							<div class="dots-container">
+								<div class="upper-dot"></div>
+								<div class="lower-dot"></div>
+							</div>
+							<div class="meet-text">meet<sup>.</sup></div>
+						</div>
+						<div class="maker-container">
+							<div class="circles-container">
+								<div class="circle1"></div>
+								<div class="circle2"></div>
+							</div>
+							<div class="maker-text">maker</div>
+						</div>
+					</div>
+				</div>
+				<div class="div2">
+					<img src="images/image-hero-desktop.png" alt="man with laptop">
+				</div>
+			</div>
+			<div class="particle-container">
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+				<div class="particle"></div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
