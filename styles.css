@@ -175,7 +175,7 @@
 	align-items: center;
 }
 .content-container {
-	width: 80%;
+	width: 90%;
 	height: 80%;
 	display: flex;
 	position: absolute;
@@ -314,12 +314,12 @@
 .div2 {
 	width: 50%;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-end;
 	align-items: center;
 }
 .div2 img {
 	display: block;
-	width: 100%;
+	width: 80%;
 	height: 100%;
 	object-fit: contain;
 }
