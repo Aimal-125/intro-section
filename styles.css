@@ -220,8 +220,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 0.7vw;
-	animation: brandsAnimation 1 1s linear;
+	gap: 0.7vw; 
 }
 .databiz-dot {
 	width: 1vw;
@@ -234,11 +233,7 @@
 	font-weight: bold;
 	text-shadow: 1px 1px 3px black;
 	color: white;
-}
-
-.audiophile-container {
-	animation: brandsAnimation 1 1s linear;
-}
+} 
 .audio, .phile {
 	width: 4.5vw;
 	font-weight: bold;
@@ -257,8 +252,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 0.4vw;
-	animation: brandsAnimation 1 1s linear;
+	gap: 0.4vw; 
 }
 .dots-container {
 	display: flex;
@@ -289,8 +283,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	gap: 0.4vw;
-	animation: brandsAnimation 1 1s linear;
+	gap: 0.4vw; 
 }
 .circles-container {
 	display: flex;
@@ -317,18 +310,7 @@
 	font-weight: bold;
 	text-shadow: 1px 1px 3px black;
 	color: white;
-}
-@keyframes brandsAnimation {
-	0% {
-		transform: scale(0);
-		-webkit-transform: scale(0);
-	}
-	50% {
-		transform: scale(0) rotate(180deg);
-		-webkit-transform: scale(0) rotate(180deg);
-	}
-}
-
+} 
 .div2 {
 	width: 50%;
 	display: flex;
@@ -553,8 +535,7 @@
 	}
 	.mobile-logo {
 		font-size: 4vh;
-		font-weight: bold;
-		animation: mobile-nav-anime 1 0.3s linear;
+		font-weight: bold; 
 	}
 	.mDiv button {
 		border: none;
@@ -677,54 +658,40 @@
 		border: 2px solid black;
 	}
 	.mobile-features-menu {
-		/*opacity: 0;
+		opacity: 0;
 		height: 0;
 		visibility: hidden;
 		z-index: -2;
 		position: relative;
-		transition: 0.3s;*/
-		display: none;
+		transition: 0.3s;
 	}
 	.features-open {
-		/*opacity: 1;
+		opacity: 1;
 		height: 22vh;
 		z-index: initial;
-		visibility: visible;*/
-		display: block;
+		visibility: visible;
 	}
 	#arrow-image1, #arrow-image2 {
 		transition: 0.3s;
 		width: 3%;
 	}
 	.mobile-company-menu {
-		/*opacity: 0;
+		opacity: 0;
 		height: 0;
 		visibility: hidden;
 		z-index: -2;
 		position: relative;
-		transition: 0.3s;*/
-		display: none;
+		transition: 0.3s;
 	}
 	.company-open {
-		/*opacity: 1;
+		opacity: 1;
 		height: 17vh;
 		z-index: initial;
-		visibility: visible;*/
-		display: block;
+		visibility: visible;
 	}
 	.mobile-company-menu a {
 		padding-left: 5vh;
-	}
-	@keyframes mobile-nav-anime {
-		0% {
-			transform: scale(0);
-			-webkit-transform: scale(0);
-		}
-		100% {
-			transform: scale(1.0) rotate(360deg);
-			-webkit-transform: scale(1.0) rotate(360deg);
-		}
-	}
+	} 
 	.container {
 		background: linear-gradient(white, black, black);
 	}
@@ -781,8 +748,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 1vh;
-		animation: brandsAnimation 1 1s linear;
+		gap: 1vh; 
 	}
 	.databiz-dot {
 		width: 1.5vh;
@@ -795,10 +761,7 @@
 		font-weight: bold;
 		text-shadow: 1px 1px 3px black;
 		color: white;
-	}
-	.audiophile-container {
-		animation: brandsAnimation 1 1s linear;
-	}
+	} 
 	.audio, .phile {
 		width: 5vh;
 		font-weight: bold;
@@ -816,8 +779,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 0.7vh;
-		animation: brandsAnimation 1 1s linear;
+		gap: 0.7vh; 
 	}
 	.dots-container {
 		display: flex;
@@ -847,8 +809,7 @@
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		gap: 0.7vh;
-		animation: brandsAnimation 1 1s linear;
+		gap: 0.7vh; 
 	}
 	.circles-container {
 		display: flex;
@@ -882,7 +843,7 @@
 		font-size: 10vh;
 	}
 	.div1 p {
-		font-size: 5vh;
+		font-size: 14px;
 	}
 	.btnDiv button {
 		font-size: 4vh;
